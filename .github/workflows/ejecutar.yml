@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: 'Ejecutar la accion de Docker'
         id: hola
-        uses: luchoChZ/docker_Jueves_Luis@v1
+        uses: luchoChZ/docker_Jueves_Luis/action@master
         with:
           quien: 'Lucho'
       - name: 'Mostra la hora obtenida'
