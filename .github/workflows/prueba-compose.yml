@@ -1,5 +1,5 @@
 name: 'Flujo con docker-compose'
-02: push
+on: push
 jobs:
   probar:
     runs-on: ubuntu-latest
