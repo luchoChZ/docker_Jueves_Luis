@@ -1,7 +1,7 @@
 version: "3"
 services:
   basedatos:
-    image:postgres
+    image: postgres
     restart: always
     environment:
       POSGRES_PASSWORD: postgres
