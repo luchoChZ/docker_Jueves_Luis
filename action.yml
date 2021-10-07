@@ -12,4 +12,4 @@ runs:
   using: 'Docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.quien }
+    - ${{ inputs.quien }}
